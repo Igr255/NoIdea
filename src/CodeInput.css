@@ -1,0 +1,23 @@
+.code-input-cell {
+  background-color: white;
+
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.2rem;
+
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.code-input-body {
+}
+
+/**grid-template-columns: repeat(10, minmax(max-content, 1fr));**/
+
+.code-input-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 0.3rem;
+  column-gap: 0.3rem;
+}
